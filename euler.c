@@ -13,7 +13,7 @@ int mult35(){
 
 int evenfib(){
   int sum = 0,first = 1,second = 2;
-  while(second < 4000000){
+  while(first < 4000000){
     if(first % 2 == 0){
       sum += first;
     }
