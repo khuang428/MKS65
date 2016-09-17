@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int mult35(){
+  int x = 999;
+  int sum = 0;
+  while(x){
+    if(x % 3 == 0 || x % 5 == 0){
+      sum += x;
+    }
+    x--;
+  }
+  return sum;
+}
+
+
+void main(){
+  printf("1)%d\n",mult35());
+}
